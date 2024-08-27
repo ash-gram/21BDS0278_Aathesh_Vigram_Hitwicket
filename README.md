@@ -18,6 +18,14 @@ Access via the Client
 
 Open `client/index.html` on a live server at `localhost:5500`
 
+If a different URL is desired for launching the client with various ports of your choice, create a `.env` file in the root director.
+
+Fill in the Client URL
+
+```
+'client-url' = 'http://localhost:5500'
+```
+
 Client Screenshot:
 ![Client Screenshot](<Screenshot 2024-08-27 054735.png>)
 
