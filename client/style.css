@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+.cell.empty {
+  background-color: #f0f0f0;
+}
+
+.cell.playerA {
+  background-color: #add8e6; /* Light Blue */
+}
+
+.cell.playerB {
+  background-color: #ffcccb; /* Light Red */
+}
+
+.valid-move {
+  background-color: #90ee90; /* Light Green */
+}
+
+#move-history {
+  margin-top: 20px;
+}
+
+#message {
+  font-weight: bold;
+  margin-top: 10px;
+}
