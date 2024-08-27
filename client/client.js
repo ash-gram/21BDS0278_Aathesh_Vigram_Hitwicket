@@ -136,7 +136,7 @@ function isValidCell(r, c) {
 
 function getMoveFromCell(r, c) {
   const charType = selectedCharacter[2];
-  const board = this.board; // Assuming 'board' is accessible within the component's scope
+  const board = this.board;
 
   let validMoves = [];
 
